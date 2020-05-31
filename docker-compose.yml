@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: Overtime
+      POSTGRES_USER: Overtime
+      POSTGRES_DB: Overtime_development
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
