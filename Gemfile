@@ -30,7 +30,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'administrate'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'bourbon'
 gem 'devise', '~> 4.7.1'
 gem 'gritter'
 gem 'jquery-rails'
