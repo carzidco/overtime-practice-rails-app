@@ -11,7 +11,7 @@ FactoryGirl.define do
     password_confirmation 'asdfasdf'
   end
 
-  factory :admin_user, class: "Adminuser" do
+  factory :admin_user, class: "AdminUser" do
     first_name 'Admin'
     last_name 'User'
     email 'admin@test.com'
