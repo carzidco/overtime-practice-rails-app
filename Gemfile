@@ -36,5 +36,6 @@ gem 'bourbon'
 gem 'devise', '~> 4.7.1'
 gem 'gritter'
 gem 'jquery-rails'
+gem 'pundit'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
